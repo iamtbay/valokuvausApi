@@ -2,12 +2,14 @@
   "dependencies": {
     "@types/express": "^4.17.17",
     "@types/node": "^18.15.1",
-    "concurrently": "^7.6.0",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
-    "express-http-status": "^1.1.0",
-    "nodemon": "^2.0.21"
+    "express-fileupload": "^1.4.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.0"
   },
   "name": "express-ts-boilerplate",
   "version": "1.0.0",
@@ -20,5 +22,14 @@
   },
   "author": "",
   "license": "ISC",
-  "description": "boilerplate for personal ts projects with express"
+  "description": "boilerplate for personal ts projects with express",
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/cookie-parser": "^1.4.3",
+    "@types/cors": "^2.8.13",
+    "@types/express-fileupload": "^1.4.1",
+    "@types/jsonwebtoken": "^9.0.1",
+    "concurrently": "^8.0.1",
+    "express-http-status": "^1.1.0"
+  }
 }
